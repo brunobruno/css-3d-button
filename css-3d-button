@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>title</title>
+	<style>
+.botao{width:100px;height:90px;-moz-box-shadow: 0 5px 5px #888;-webkit-box-shadow: 0 5px 5px#888;box-shadow: 0 5px 5px #888;padding-left:3px;padding-top: 20px;border-radius:50%;background: #fff;
+background: -moz-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+background: -webkit-linear-gradient(top, #fff 0%,#f6f6f6 47%,#ededed 100%);
+background: -o-linear-gradient(top, #fff 0%,#f6f6f6 47%,#ededed 100%); 
+background: -ms-linear-gradient(top, #fff 0%,#f6f6f6 47%,#ededed 100%);
+background: linear-gradient(to bottom, #fff 0%,#f6f6f6 47%,#ededed 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#ededed',GradientType=0 )}
+	
+.inner{width:70px;height:70px;border-radius:50%;background:#ededed;margin:0 auto}
+
+.outer{width:112px;height:121px;border-radius:50%;padding-left: 10px;padding-top: 9px;background: #ededed;
+background: -moz-linear-gradient(top, #ededed 0%, #f6f6f6 53%, #fff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(53%,#f6f6f6), color-stop(100%,#fff)); 
+background: -webkit-linear-gradient(top, #ededed 0%,#f6f6f6 53%,#fff 100%);
+background: -o-linear-gradient(top, #ededed 0%,#f6f6f6 53%,#fff 100%);
+background: -ms-linear-gradient(top, #ededed 0%,#f6f6f6 53%,#fff 100%);
+background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 53%,#fff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fff',GradientType=0 )}
+
+.outside{width:128px;height:135px;border-radius:50%;border:1px solid #ccc;padding-top: 6px;padding-left:5px;margin:10px;float:left}	
+	</style>
+</head>
+
+<body>
+	<div class="outside">
+		<div class="outer">
+			<div class="botao">
+				<div class="inner">
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+		<div class="outside">
+		<div class="outer">
+			<div class="botao">
+				<div class="inner">
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	
+</body>
+</html>
